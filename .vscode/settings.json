@@ -1,29 +1,32 @@
 {
-  "editor.tabSize": 2,
-  "editor.detectIndentation": false,
-  "search.exclude": {
-    "package-lock.json": true
-  },
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-  "editor.formatOnSave": false,
-  "editor.codeActionsOnSave": [
-    "source.addMissingImports",
-    "source.fixAll.eslint"
-  ],
-  // Multiple language settings for json and jsonc files
-  "[json][jsonc][yaml]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "prettier.ignorePath": ".gitignore",
-  "prettier.semi": false,
-  "prettier.useTabs": true,
-  "prettier.singleQuote": true,
-  "workbench.iconTheme": "material-icon-theme",
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+	"editor.tabSize": 2,
+	"editor.detectIndentation": false,
+	"search.exclude": {
+		"package-lock.json": true
+	},
+	"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+	"editor.formatOnSave": false,
+	"editor.codeActionsOnSave": [
+		"source.addMissingImports",
+		"source.fixAll.eslint"
+	],
+	// Multiple language settings for json and jsonc files
+	"[json][jsonc][yaml]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.ignorePath": ".gitignore",
+	"prettier.semi": false,
+	"prettier.useTabs": true,
+	"prettier.singleQuote": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	}
 }
