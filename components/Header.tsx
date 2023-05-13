@@ -9,11 +9,9 @@ const Header: React.FC = () => {
 
 	const left = (
 		<div className="left">
-			<Link href="/">
-				<a className="bold" data-active={isActive('/')}>
-					Feed
-				</a>
-			</Link>
+			<a href="/" className="bold" data-active={isActive('/')}>
+				Feed
+			</a>
 			<style jsx>{`
 				.bold {
 					font-weight: bold;
